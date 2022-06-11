@@ -62,19 +62,31 @@ div a
     border-radius:30px;
     padding:5px 10px 1px 10px;
     text-align: center;
-    margin:10px;
-    min-width:400px;
+    margin-top:10px;
+    width:400px;
     height:50px;
     text-decoration: none;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color:black;
 }
+ul {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+ul li
+{
+    margin:5px;
+    list-style-type: none;
+}
 .links div a:hover
 {
     background-color: transparent;
     border:2px solid white;
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 footer{
     text-align: center;
@@ -101,6 +113,7 @@ footer{
         height:100vh;
         padding:20px 20px;
         background: url(whatever.jpg);
+        background: linear-gradient(135deg, #834ED6, #ed008c, #fce205, #60c872, #13A7D4);
         overflow: hidden;
     }
 }
