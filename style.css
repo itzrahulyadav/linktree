@@ -17,7 +17,7 @@ main{
 }
 .container
 {
-  margin-top:20px;
+  margin-top:50px;
 
 }
 .profile img
@@ -33,14 +33,14 @@ main{
     flex-direction: column;
     justify-content: center;
 }
-.profile h2
+.profile h2,h3
 {
     color: white;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-top: 20px;
-
-
+        font-weight: 200;
 }
+
 .links
 {
     display: flex;
@@ -82,6 +82,9 @@ ul li
     margin:5px;
     list-style-type: none;
 }
+ul li:hover{
+    transform: scale(1.02);
+}
 .links div a:hover
 {
     background-color: transparent;
@@ -96,7 +99,25 @@ footer{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-top: 20px;
 }
-@media screen and (max-width:350px){
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-top: 10px;
+}
+.icons a
+{
+    width:50px;
+    height:50px;
+    background:transparent;
+    color:white;
+
+}
+.icons a:hover{
+    transform: scale(1.02);
+}
+@media screen and (max-width:560px){
     * {
             margin: 0;
             padding: 0;
@@ -115,5 +136,9 @@ footer{
         background: url(whatever.jpg);
         background: linear-gradient(135deg, #834ED6, #ed008c, #fce205, #60c872, #13A7D4);
         overflow: hidden;
+    }
+    footer
+    {
+        font-size:25px;
     }
 }
