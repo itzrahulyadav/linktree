@@ -33,7 +33,7 @@ main{
     flex-direction: column;
     justify-content: center;
 }
-.profile h2,h3
+.profile h2
 {
     color: white;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -87,8 +87,7 @@ ul li:hover{
 }
 .links div a:hover
 {
-    background-color: transparent;
-    border:2px solid white;
+    
     transform: scale(1.02);
 }
 footer{
@@ -137,9 +136,9 @@ footer{
         width:100vw;
         height:100vh;
         padding:20px 20px;
-        background: url(whatever.jpg);
         background: linear-gradient(135deg, #834ED6, #ed008c, #fce205, #60c872, #13A7D4);
         overflow: hidden;
+        background-attachment: fixed;
     }
     footer
     {
